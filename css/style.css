@@ -1,15 +1,50 @@
-#menu {
+#header {
+    position: fixed;
+    left: 0;
     background-color: #333;
     width: 100%;
     text-align: center; /* Centre le texte dans le menu */
+}
+
+#header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centre les éléments de la liste horizontalement */
+}
+
+#header li {
+    margin: 0;
+}
+
+#header a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0 25px; /* Ajoute de l'espace entre les textes */
+}
+
+#header a:hover {
+    background-color: #555;
+}
+
+#menu {
+    position: fixed;
+    top: 58;
+    left: 0;
+    background-color: #333;
+    width: 200px; /* Largeur du menu vertical */
+    height: 100vh;
 }
 
 #menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center; /* Centre les éléments de la liste horizontalement */
 }
 
 #menu li {
@@ -23,9 +58,19 @@
     color: white;
     font-weight: bold;
     transition: background-color 0.3s ease;
-    margin: 0 25px; /* Ajoute de l'espace entre les textes */
 }
 
 #menu a:hover {
     background-color: #555;
+}
+
+#footer {
+    position: fixed; /* Position fixe par rapport à la fenêtre visible */
+    left: 0;
+    bottom: 0; /* Placé en bas de la fenêtre */
+    width: 100%; /* Occupe la largeur complète */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
