@@ -15,29 +15,31 @@
         </div>
         <div id="contact">
             <h1> Demande de contact </h1>
-            <input type="text" class="champs" placeholder="Nom"/>
-            <input type="text" class="champs" placeholder="Prenom"/>
-            <input type="text" class="champs" placeholder="Email"/>
-            <legend>Genre</legend>
-                <input type="radio">
-                    <label for="homme">Homme</label>
-                </input>
-                <input type="radio">
-                    <label for="femme">Femme</label>
-                </input>
-                <input type="radio">
-                    <label for="autre">Autre</label>
-                </input>
-            <select class="champs">
-                <option value="0">Selectionnez votre métier</option>
-                <option value="1">Etudiant</option>
-                <option value="2">Professionnel</option>
-                <option value="3">Autre</option>
-            </select>
-            <input type="date" class="champs" placeholder="Date de naissance"/>
-            <input type="text" class="champs" placeholder="Sujet"/>
-            <input type="" id="message" class="champs" placeholder="Message"/>
-            <input type="submit" class="champs" href="mailto :brasdefert@cy-tech.fr"/>
+            <form action="mail.php" method="post">
+                <input type="text" class="champs" placeholder="Nom"/>
+                <input type="text" class="champs" placeholder="Prenom"/>
+                <input type="text" class="champs" placeholder="Email"/>
+                <legend>Genre</legend>
+                    <input type="radio">
+                        <label for="homme">Homme</label>
+                    </input>
+                    <input type="radio">
+                        <label for="femme">Femme</label>
+                    </input>
+                    <input type="radio">
+                        <label for="autre">Autre</label>
+                    </input>
+                <select class="champs">
+                    <option value="0">Selectionnez votre métier</option>
+                    <option value="1">Etudiant</option>
+                    <option value="2">Professionnel</option>
+                    <option value="3">Autre</option>
+                </select>
+                <input type="date" class="champs" placeholder="Date de naissance"/>
+                <input type="text" class="champs" placeholder="Sujet"/>
+                <textarea rows="5" cols="30" id="message" class="champs" name="message"></textarea>
+                <input type="submit" class="champs">
+            </form>
         </div>
         <div id="menu">
             <ul>
