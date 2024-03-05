@@ -1,5 +1,6 @@
 #header {
     position: fixed;
+    top : 0;
     left: 0;
     background-color: #333;
     width: 100%;
@@ -34,7 +35,7 @@
 
 #menu {
     position: fixed;
-    top: 58;
+    top: 40;
     left: 0;
     background-color: #333;
     width: 200px; /* Largeur du menu vertical */
@@ -73,6 +74,15 @@
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+img {
+    position: fixed;
+    width: 10%;
+    display: block;
+    top: 100;
+    left: 300;
+    margin-bottom: 200px;
 }
 
 #contact {
