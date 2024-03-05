@@ -76,15 +76,6 @@
     padding: 10px;
 }
 
-img {
-    position: fixed;
-    width: 10%;
-    display: block;
-    top: 100;
-    left: 300;
-    margin-bottom: 200px;
-}
-
 #contact {
     position: fixed;
     top: 100;
@@ -114,4 +105,30 @@ img {
     margin: 20px;
     padding: 100px;
     width: 1250px;
+}
+
+table {
+    position: fixed;
+    width: 80%;
+    top: 175;
+    left: 300;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    max-width: 100px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+img {
+    max-width: 10%;
+    display: block;
 }
