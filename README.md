@@ -7,5 +7,6 @@
 
 ## À faire (à fix ?)
 
-Installer le package sendmail
-Vérifier que la config est bonne et que le mail est bien envoyé
+Installer le package sendmail  
+Vérifier que la config est bonne et que le mail est bien envoyé  
+Régler les problèmes de mise en page  
