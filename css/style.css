@@ -35,7 +35,7 @@
 
 #menu {
     position: fixed;
-    top: 40;
+    top: 50;
     left: 0;
     background-color: #333;
     width: 200px; /* Largeur du menu vertical */
@@ -93,17 +93,30 @@
 .champs {
     margin: 20px;
     width: 300px;
-    display: block; 
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
-.champs input {
-    text-align: center;
-    box-sizing: border-box;
+.gauche, .droite {
+    float: left;
+    width: 20%;
+}
+
+.gender {
+    clear: both;
+    margin: 20px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+#sujet {
+    width: 1250px;
+    margin-bottom: -10px;
 }
 
 #message {
     margin: 20px;
-    padding: 100px;
+    height: 400px;
     width: 1250px;
 }
 
