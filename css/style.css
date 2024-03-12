@@ -145,3 +145,13 @@ img {
     max-width: 10%;
     display: block;
 }
+
+.cache {
+    display: none;
+}
+
+#toggle-stock-button {
+    position: fixed;
+    top: 700;
+    right: 85;
+}

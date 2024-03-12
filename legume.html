@@ -4,56 +4,44 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
-        <div id="header">
-            <table border="1">
+        <div id="main">
+            <table id="produit" border="1">
                 <thead>
                     <tr>
                         <th>Image</th>
                         <th>Description</th>
-                        <th>Stock</th>
+                        <th id="stock" class="cache">Stock</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><img src="img/choufleur.jpeg" alt="Image 1"></td>
                         <td>Choufleur</td>
-                        <td>10</td>
+                        <td class="cache">10</td>
                     </tr>
                     <tr>
                         <td><img src="img/brocoli.jpeg" alt="Image 2"></td>
                         <td>Brocoli</td>
-                        <td>28</td>
+                        <td class="cache">28</td>
                     </tr>
                     <tr>
                         <td><img src="img/concombre.jpeg"  alt="Image 3"></td>
                         <td>Concombre</td>
-                        <td>87</td>
+                        <td class="cache">87</td>
                     </tr>
                     <tr>
                         <td><img src="img/courgette.jpeg" alt="Image 4"></td>
                         <td>Courgette</td>
-                        <td>180</td>
+                        <td class="cache">180</td>
                     </tr>
                     <tr>
                         <td><img src="img/haricot.jpg" alt="Image 5"></td>
                         <td>Haricot</td>
-                        <td>600</td>
+                        <td class="cache">600</td>
                     </tr>
                 </tbody>
             </table>
-            <ul>
-                <li><a href="index.html"> Accueil </a></li>
-                <li><a href="viande.html"> Viande </a></li>
-                <li><a href="fruit.html"> Fruit</a></li>
-                <li><a href="legume.html"> Legume</a></li>
-                <li><a href="contact.html"> Contact</a></li>
-            </ul>
-        </div>
-        <img src="img/choufleur.jpeg" />
-        <img src="img/brocoli.jpeg" />
-        <img src="img/concombre.jpeg" />
-        <img src="img/courgette.jpeg" />
-        <img src="img/haricot.jpg" />
+            <button id="toggle-stock-button">Stock</button>
         <div id="header">
             <ul>
                 <li><a href="index.html"> Accueil </a></li>
@@ -75,5 +63,6 @@
         <div id="footer">
             <p>Coypyrigth</p>   
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
